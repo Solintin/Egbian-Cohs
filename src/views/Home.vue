@@ -10,7 +10,7 @@
         </h5>
       </div>
       <div class="right">
-        <img src="../assets/Under-cons.svg" alt="under-contruction">
+        <img src="../assets/Under-cons.svg" alt="under-contruction" />
       </div>
     </div>
   </div>
@@ -34,64 +34,60 @@ export default {
   height: 100vh;
   width: 100%;
   margin: 0;
-  display : flex;
+  display: flex;
   flex-direction: row;
-
 }
 .left {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  padding:  100px;
+  justify-content: center;
+  padding: 100px;
   width: 50%;
-
 }
 .left h1 {
   color: #00bfff;
   font-weight: 700;
   font-size: 50px;
   margin: 0;
-
 }
 .left h5 {
   font-weight: 700;
-    font-size: 20px;
-
+  font-size: 20px;
 }
 
 .right {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding:  100px;
+  padding: 100px;
   width: 50%;
   background: #00bfff;
 }
-.right img{
+.right img {
   height: 100%;
   width: 100%;
 }
- /* Mobile Responsiveness */
-@media screen and (max-width: 765px) {   
+/* Mobile Responsiveness */
+@media screen and (max-width: 765px) {
   .homepage .right {
     display: none !important;
   }
-  .homepage .left{
-    padding-left: 20px;
+
+  .homepage .left {
+    text-align: center ;
     width: 100%;
+    align-items: center;
   }
-  .left h1{
+  .left h1 {
     font-size: 40px !important;
     line-height: 2.5rem;
   }
 }
 
-@media screen and (max-width: 960px) {   
-  
-  .left h1{
+@media screen and (max-width: 960px) {
+  .left h1 {
     font-size: 35px !important;
     line-height: 2.5rem;
   }
 }
-
 </style>
