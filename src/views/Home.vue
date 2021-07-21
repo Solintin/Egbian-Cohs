@@ -2,6 +2,7 @@
   <div>
     <div class="homepage">
       <div class="left">
+        <img src="../assets/logo.png" alt="" />
         <h1>
           This Website is Under Construction
         </h1>
@@ -45,36 +46,58 @@ export default {
   width: 50%;
 }
 .left h1 {
-  color: #00bfff;
+  color: var(--primary);
   font-weight: 700;
-  font-size: 50px;
+  font-size: 45px;
   margin: 0;
 }
 .left h5 {
+  margin: 10px 0;
   font-weight: 700;
   font-size: 20px;
+  color: var(--primary);
+}
+.left img {
+  height: 20%;
+  width: 20%;
+  margin-bottom: 50px;
 }
 
 .right {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   padding: 100px;
   width: 50%;
-  background: #00bfff;
+  background: var(--primary);
+}
+.left img {
+  height: 40%;
+  width: 40%;
 }
 .right img {
   height: 100%;
-  width: 100%;
+  width: 120%;
 }
 /* Mobile Responsiveness */
 @media screen and (max-width: 765px) {
+  .homepage {
+    flex-direction: column;
+  }
   .homepage .right {
-    display: none !important;
+    width: 100%;
+  }
+  .right {
+    align-items: center;
+  }
+  .right img {
+    height: 100%;
+    width: 320px;
   }
 
   .homepage .left {
-    text-align: center ;
+    text-align: center;
     width: 100%;
     align-items: center;
   }

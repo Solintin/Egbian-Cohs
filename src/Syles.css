@@ -4,5 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Ubuntu", sans-serif;
-
+}
+:root {
+    --primary : #0D72B9;
 }
