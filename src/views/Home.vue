@@ -3,12 +3,13 @@
     <div class="homepage">
       <div class="left">
         <img src="../assets/logo.png" alt="" />
-        <h1>
+        <h1 class="text-black">
           This Website is Under Construction
         </h1>
         <h5>
           We will be back soon!
         </h5>
+        
       </div>
       <div class="right">
         <img src="../assets/Under-cons.svg" alt="under-contruction" />
@@ -57,11 +58,6 @@ export default {
   font-size: 20px;
   color: var(--primary);
 }
-.left img {
-  height: 20%;
-  width: 20%;
-  margin-bottom: 50px;
-}
 
 .right {
   display: flex;
@@ -74,7 +70,9 @@ export default {
 }
 .left img {
   height: 40%;
-  width: 40%;
+  width: 35%;
+    margin-bottom: 50px;
+
 }
 .right img {
   height: 100%;
@@ -95,6 +93,10 @@ export default {
     height: 100%;
     width: 320px;
   }
+  .left img {
+  width: 50%;
+
+}
 
   .homepage .left {
     text-align: center;
