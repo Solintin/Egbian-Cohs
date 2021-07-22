@@ -71,8 +71,8 @@ export default {
 .left img {
   height: 40%;
   width: 35%;
-    margin-bottom: 50px;
-
+  object-fit: contain;
+  margin-bottom: 50px;
 }
 .right img {
   height: 100%;
@@ -94,9 +94,9 @@ export default {
     width: 320px;
   }
   .left img {
-  width: 50%;
-
-}
+    width: 50%;
+    object-fit: contain;
+  }
 
   .homepage .left {
     text-align: center;
