@@ -1,6 +1,6 @@
 <template>
   <div>
-      Connected
+      Connected for manual testing
   </div>
 </template>
 
