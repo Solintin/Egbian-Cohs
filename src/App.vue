@@ -1,5 +1,14 @@
 <template>
-  <router-view></router-view>
+  <router-view />
 </template>
 
-<style src="./main.css"></style>
+<script>
+
+export default {
+  name: 'app'
+}
+</script>
+
+<style src='./main.css'>
+
+</style>
